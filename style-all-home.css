@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.heading{
+  text-align: center;
+	color:green;
+  }
+
+.main{
+  font-size: 0;
+  background-color:green;
+}
+
+
+.contents{
+  font-size: 0;
+  background-color:blue;
+  float: left;
+}
+
+.main{
+  margin: 40px;
+}
+
+.vegephoto{
+  width: 100%;
+}
+
+.vegephoto img{
+  width: 25%;
+  height:250px;
+}
+
+
+.footer{
+  background-color:#FCFFC0;
+  height:200px ;
+  clear:left;
+}
